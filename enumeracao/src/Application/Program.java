@@ -19,7 +19,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		System.out.println("enter with your name :");
+		System.out.println("enter with your name nsapokdaspi :");
 		String name = sc.nextLine();
 
 		System.out.println("enter with your email : ");
