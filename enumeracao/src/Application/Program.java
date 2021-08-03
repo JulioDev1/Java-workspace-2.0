@@ -54,7 +54,7 @@ public class Program {
 			int quantity = sc.nextInt();
 			
 			OrderItem orderitem = new OrderItem(quantity,productPrice, product);
-			order.addItem(orderitem);
+			order.addItem(orderitem);////// Order - > recebe os itens adicioninado em order item////////
 
 		}
 		System.out.println();

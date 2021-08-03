@@ -11,7 +11,7 @@ public class Order {
 	private Date moment;
 	private OrderStatus status;
 	private Client client;
-	private List<OrderItem> itens = new ArrayList<>();
+	private List<OrderItem> itens = new ArrayList<>(); ////List<nome da classe que vc quer que tenha dados armazenados>////
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 	public Order() {
